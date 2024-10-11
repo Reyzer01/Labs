@@ -4,19 +4,10 @@ using namespace std;
 
 int main()
 {
-	int x;
+	int x = 50;
 	int i;
-	cin >> x >> i;
-	if (x <= 0 || x >= 1000000000) {
-    return 1;
-}
-
-if(i > 32)
-{
-  return 1;
-}
+	cin >> i;
 	x |= (0 << i);
 	cout << x << endl;
-
 	return 0;
 }
