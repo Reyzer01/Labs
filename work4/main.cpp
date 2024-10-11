@@ -1,17 +1,17 @@
 #include "iostream"
-
+using namespace std;
 int main() {
-int A, B, C;
+unsigned int A, B, C;
 
-std::cin >> A >> B >> C;
+cin >> A >> B >> C;
 
 
 if (A < B && B < C) {
-    std::cout << "Разность C-B-A: " << C - B - A << std::endl;
+    cout << "Разность C-B-A: " << C - B - A << endl;
 } else if (A % C == 0) {
-    std::cout << "Частное A/C + B: " << A / C + B << std::endl;
+    cout << "Частное A/C + B: " << A / C + B << endl;
 } else {
-    std::cout << "Сумма A+B+C: " << A + B + C << std::endl;
+    cout << "Сумма A+B+C: " << A + B + C << endl;
 }
 
 return 0;
@@ -20,42 +20,42 @@ return 0;
 int main() {
     int N;
 
-    std::cout << "Введите код товара: ";
-    std::cin >> N;
+    cout << "Введите код товара: ";
+    cin >> N;
 
     switch(N) {
         case 1:
-            std::cout << "Шоколад" << std::endl;
+            cout << "Йогурт" << endl;
             break;
         case 2:
-            std::cout << "Молоко" << std::endl;
+            cout << "Молоко" << endl;
             break;
         case 3:
-            std::cout << "Хлеб" << std::endl;
+            cout << "Хлеб" << endl;
             break;
         case 4:
-            std::cout << "Яблоки" << std::endl;
+            cout << "Яблоки" << endl;
             break;
         case 5:
-            std::cout << "Картофель" << std::endl;
+            cout << "Картофель" << endl;
             break;
         default:
-            std::cout << "Такого товара не существует" << std::endl;
+            cout << "Такого товара не существует" << endl;
     }
 
     return 0;
 }
 
-#include <iostream>
-using namespace std;
-
 int main() {
-    int x = 1;
+    int x;
+    cin >> x;
 
     if (x == -1) {
         cout << "Negative number" << endl;
-    } else {
+    } else if(x == 1) {
         cout << "Positive number" << endl;
+    } else {
+        cout << "Wrong number" << endl;
     }
 
     return 0;
