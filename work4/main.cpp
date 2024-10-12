@@ -14,10 +14,10 @@ if (A < B && B < C) {
     cout << "Сумма A+B+C: " << A + B + C << endl;
 }
 
-return 0;
-}
 
-int main() {
+
+
+
     int N;
 
     cout << "Введите код товара: ";
@@ -43,10 +43,10 @@ int main() {
             cout << "Такого товара не существует" << endl;
     }
 
-    return 0;
-}
+  
 
-int main() {
+
+
     int x;
     cin >> x;
 
