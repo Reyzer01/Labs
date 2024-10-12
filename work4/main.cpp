@@ -7,11 +7,11 @@ cin >> A >> B >> C;
 
 
 if (A < B && B < C) {
-    cout << "Разность C-B-A: " << C - B - A << endl;
+    cout << " C-B-A: " << C - B - A << endl;
 } else if (A % C == 0) {
-    cout << "Частное A/C + B: " << A / C + B << endl;
+    cout << " A/C+B: " << A / C + B << endl;
 } else {
-    cout << "Сумма A+B+C: " << A + B + C << endl;
+    cout << " A+B+C: " << A + B + C << endl;
 }
 
 
@@ -20,27 +20,27 @@ if (A < B && B < C) {
 
     int N;
 
-    cout << "Введите код товара: ";
+    cout << "Enter the product code: ";
     cin >> N;
 
     switch(N) {
         case 1:
-            cout << "Йогурт" << endl;
+            cout << "Yogurt" << endl;
             break;
         case 2:
-            cout << "Молоко" << endl;
+            cout << "Milk" << endl;
             break;
         case 3:
-            cout << "Хлеб" << endl;
+            cout << "Bread" << endl;
             break;
         case 4:
-            cout << "Яблоки" << endl;
+            cout << "Apples" << endl;
             break;
         case 5:
-            cout << "Картофель" << endl;
+            cout << "Potatoes" << endl;
             break;
         default:
-            cout << "Такого товара не существует" << endl;
+            cout << "This product does not exist" << endl;
     }
 
   
