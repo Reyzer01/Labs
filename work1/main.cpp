@@ -7,7 +7,7 @@ int main()
 	int x;
 	int i;
 	cin >> x >> i;
-	if (x <= 0 || x >= 1000000000) {
+if (x <= 0 || x >= 1000000000) {
     return 1;
 }
 
